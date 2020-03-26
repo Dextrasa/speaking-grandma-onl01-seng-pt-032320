@@ -7,6 +7,9 @@ def speak_to_grandma(string)
     elsif string == string.downcase
       "HUH?! SPEAK UP, SONNY!"
       
+    elsif string == string.capitalize
+      ""
+      
     elsif string == string.upcase
       "NO, NOT SINCE 1938!"
     
