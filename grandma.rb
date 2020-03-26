@@ -1,8 +1,8 @@
 
 def speak_to_grandma(string)
   
-    if #{string} == string.upcase
-      puts "I LOVE YOU TOO PUMPKIN!"
+    if #{string} == string.downcase
+     "I LOVE YOU TOO PUMPKIN!"
       
 end
 
