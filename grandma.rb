@@ -13,7 +13,7 @@ def speak_to_grandma(string)
     elsif string == string.swapcase
       "HUH?! SPEAK UP, SONNY!"
       
-    elsif string == string.upcase
+    else string == string.upcase
       "NO, NOT SINCE 1938!"
     
     end
