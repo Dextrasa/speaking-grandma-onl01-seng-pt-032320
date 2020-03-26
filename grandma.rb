@@ -10,10 +10,7 @@ def speak_to_grandma(string)
     elsif string == string.downcase
       "HUH?! SPEAK UP, SONNY!"
       
-    else string == string.upcase
-      "HUH?! SPEAK UP, SONNY!"
-      
-     elsif string == string.swapcase
+    elsif string == string.swapcase
       "HUH?! SPEAK UP, SONNY!"
     
     end
